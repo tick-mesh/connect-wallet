@@ -15,5 +15,8 @@
     "isolatedModules": true,
     "noEmit": true,
     "composite": true,
-  }
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }
