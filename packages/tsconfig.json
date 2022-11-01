@@ -15,7 +15,5 @@
     "isolatedModules": true,
     "noEmit": true,
     "composite": true,
-    
-  },
-  "include": ["package"]
+  }
 }

@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "prepare": "husky install",
-    "lint": "eslint --fix src/**/*.{js,jsx,ts,tsx}"
+    "lint": "eslint --fix packages/**/*.{js,jsx,ts,tsx}"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.2.0",

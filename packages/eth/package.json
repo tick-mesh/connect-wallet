@@ -1,0 +1,26 @@
+{
+  "name": "@tickmesh/eth",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "lybenson <naivebenson@gmail.com>",
+  "homepage": "https://github.com/TickMesh/connect-wallet#readme",
+  "license": "ISC",
+  "main": "index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TickMesh/connect-wallet.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/eth.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/TickMesh/connect-wallet/issues"
+  }
+}
