@@ -5,6 +5,9 @@
   "author": "lybenson <naivebenson@gmail.com>",
   "homepage": "https://github.com/TickMesh/connect-wallet#readme",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.ts",
   "directories": {
     "lib": "lib",
