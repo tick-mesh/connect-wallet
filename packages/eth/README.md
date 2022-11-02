@@ -9,3 +9,5 @@ const eth = require('eth');
 
 // TODO: DEMONSTRATE API
 ```
+
+support eth
