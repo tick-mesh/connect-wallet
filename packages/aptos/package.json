@@ -22,5 +22,8 @@
   },
   "bugs": {
     "url": "https://github.com/TickMesh/connect-wallet/issues"
+  },
+  "dependencies": {
+    "aptos": "^1.3.16"
   }
 }

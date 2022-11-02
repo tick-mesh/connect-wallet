@@ -22,5 +22,8 @@
   },
   "bugs": {
     "url": "https://github.com/TickMesh/connect-wallet/issues"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2"
   }
 }
