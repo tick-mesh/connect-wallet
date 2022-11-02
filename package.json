@@ -2,6 +2,9 @@
   "name": "root",
   "private": true,
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "workspaces": [
     "packages/*"
   ],
