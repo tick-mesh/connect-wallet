@@ -4,7 +4,7 @@
   "description": "export ui components",
   "author": "lybenson <naivebenson@gmail.com>",
   "homepage": "https://github.com/TickMesh/connect-wallet#readme",
-  "license": "MIT",
+  "license": "ISC",
   "publishConfig": {
     "access": "public"
   },
