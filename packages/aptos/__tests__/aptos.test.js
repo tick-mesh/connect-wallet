@@ -1,7 +1,8 @@
-'use strict';
+import Aptos from '../index.ts'
 
-const aptos = require('..');
-const assert = require('assert').strict;
-
-assert.strictEqual(aptos(), 'Hello from aptos');
-console.info("aptos tests passed");
+describe('create aptos', () => {
+  it('success', () => {
+    const aptos = new Aptos('----')
+    console.log(aptos.client)
+  })
+})
