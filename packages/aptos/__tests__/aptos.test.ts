@@ -1,11 +1,11 @@
-import Aptos from '../index.ts'
+import 'jest'
 
-import { expect } from 'chai'
-import 'mocha'
+import Aptos from '../index'
 
 describe('create aptos', () => {
-  it('success', () => {
-    const aptos = new Aptos('----')
-    console.log(aptos.client)
+  test('success', () => {
+    const url = 'https://fullnode.mainnet.aptoslabs.com'
+    const aptos = new Aptos(url)
+    expect(aptos.nodeUrl).toEqual(url)
   })
 })

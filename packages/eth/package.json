@@ -21,7 +21,7 @@
     "url": "git+https://github.com/TickMesh/connect-wallet.git"
   },
   "scripts": {
-    "test": "node ./__tests__/eth.test.js"
+    "test": "jest"
   },
   "bugs": {
     "url": "https://github.com/TickMesh/connect-wallet/issues"
