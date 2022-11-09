@@ -21,14 +21,16 @@
     "type": "git",
     "url": "git+https://github.com/TickMesh/connect-wallet.git"
   },
-  "scripts": {
-    "test": "node ./__tests__/aptos.test.js"
-  },
   "bugs": {
     "url": "https://github.com/TickMesh/connect-wallet/issues"
+  },
+  "gitHead": "142fdfde9ccf04ee9cfc64bf28486868f9e9214a",
+  "scripts": {
+    "test": "mocha -r ts-node/register ./__tests__/aptos.test.ts"
   },
   "dependencies": {
     "aptos": "^1.3.16"
   },
-  "gitHead": "142fdfde9ccf04ee9cfc64bf28486868f9e9214a"
+  "devDependencies": {
+  }
 }

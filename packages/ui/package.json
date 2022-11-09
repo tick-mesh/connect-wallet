@@ -26,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/TickMesh/connect-wallet/issues"
   },
-  "gitHead": "142fdfde9ccf04ee9cfc64bf28486868f9e9214a"
+  "gitHead": "142fdfde9ccf04ee9cfc64bf28486868f9e9214a",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
 }

@@ -29,5 +29,7 @@
   "dependencies": {
     "ethers": "^5.7.2"
   },
-  "gitHead": "1c2acf5373ca1a43c20cf68f39297df83b1de8b3"
+  "gitHead": "1c2acf5373ca1a43c20cf68f39297df83b1de8b3",
+  "devDependencies": {
+  }
 }
