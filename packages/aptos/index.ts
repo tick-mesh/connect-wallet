@@ -1,11 +1,18 @@
-import { AptosClient } from 'aptos'
+// from wallet
+export interface IClient {
+  account: () => Promise<string>
+}
 
+// window.aptos => aptos
 class Aptos {
-  client: AptosClient
-  nodeUrl: string
-  constructor (nodeUrl: string) {
-    this.nodeUrl = nodeUrl
-    this.client = new AptosClient(this.nodeUrl)
+  client: IClient
+
+  constructor (client: IClient) {
+    this.client = client
+  }
+
+  async account (): Promise<string> {
+    return await this.client.account()
   }
 }
 export default Aptos

@@ -8,3 +8,7 @@
 //   }
 // }
 // export default Transaction
+export const createToken = (): number => {
+  const a = 100
+  return a
+}
