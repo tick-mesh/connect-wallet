@@ -1,5 +1,5 @@
 import { ITranaction } from './../core/transaction'
-import { IWalletCommonProps } from './../core/types'
+import { IConnectProps } from './../core/types'
 
 export enum PetraErrorCode {
   NoAccounts = 4000,
@@ -7,6 +7,6 @@ export enum PetraErrorCode {
   Unauthorized = 4100
 }
 
-export interface Petra extends IWalletCommonProps {
+export interface Petra extends IConnectProps {
   signTransaction: () => Promise<ITranaction>
 }

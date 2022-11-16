@@ -6,7 +6,7 @@
   "homepage": "https://github.com/TickMesh/connect-wallet#readme",
   "license": "MIT",
   "type": "module",
-  "main": "index.ts",
+  "main": "core/provider.ts",
   "publishConfig": {
     "access": "public"
   },

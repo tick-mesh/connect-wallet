@@ -1,18 +1,31 @@
 # connect-wallet
 
-前端项目
+React wallet connection component
 
-lerna 项目，按公链分包
+support chain 
+- [ ] aptos
+- [ ] evm ( eth, bsc, ploygon )
+- [ ] solona
 
-支持公链
-- aptos
-- eth
-- ...
+how to use 
 
-features
+```js
+import { CreateClient,  WalletEnum } from '@tichmesh/aptos'
+const client = CreateClient(WalletEnum.Aptos)
 
-- 支持钱包选择弹窗
-- 连接钱包返回可操作实例
-  - aptos ...
-  - eth ethers.js 实例
-- 公链交互
+// connect
+client.connect
+client.account
+client.isConnected
+client.disconnect
+
+// traction
+client.signAndSubmitTransaction
+client.signTransaction
+client.signMessage
+
+// event
+client.onNetworkChange
+client.onAccountChange
+client.onDisconnect
+```
