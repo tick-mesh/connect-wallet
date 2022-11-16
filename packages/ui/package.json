@@ -28,7 +28,11 @@
   },
   "gitHead": "142fdfde9ccf04ee9cfc64bf28486868f9e9214a",
   "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9"
   }
 }
