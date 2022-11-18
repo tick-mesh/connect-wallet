@@ -12,6 +12,7 @@
     "prepare": "husky install",
     "lint": "eslint --fix packages/**/*.{js,jsx,ts,tsx}",
     "bootstrap": "lerna bootstrap",
+    "preview": "lerna run storybook --scope=@tickmesh/ui",
     "test:aptos": "lerna run test --scope=@tickmesh/aptos",
     "test:eth": "lerna run test --scope=@tickmesh/eth",
     "test": "lerna run test"

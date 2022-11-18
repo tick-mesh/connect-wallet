@@ -6,7 +6,11 @@ interface IModalBodyProps {
 
 const ModalBody = (props: IModalBodyProps) => {
   return (
-    <div></div>
+    <div>
+      {
+        props.children
+      }
+    </div>
   )
 }
 

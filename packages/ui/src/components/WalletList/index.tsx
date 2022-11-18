@@ -5,6 +5,7 @@ interface IWalletListProps {
 function WalletList (props: IWalletListProps) {
   return (
     <div>
+      WalletList
     </div>
   )
 }
